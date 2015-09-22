@@ -1,0 +1,54 @@
+//Level 2
+
+//Color goes here in form of red green blue
+TOP_COLOR = 255 0 255
+
+//End color goes here (at bottom)
+BOTTOM_COLOR = 0 255 0
+
+//Background color goes here
+BACKGROUND_COLOR = 0 0 0
+
+//Foreground color goes here (GUI, paddle, and ball color)
+FOREGROUND_COLOR = 0 255 0
+
+//String name of next level (in levels folder)
+NEXT_LEVEL = Level003
+
+//The next line denotes the
+//base health for each brick.
+
+BASE_BLOCK_STRENGTH = 1
+
+//Bricks go here in any order if grid structure is false.
+//Bricks should be in the form of x y width height 
+//health specificColor. Note that x,y,width,and height 
+//should be by percent in decimal form (ex: .5 rather 
+//than 50 for fifty percent).
+
+*BLOCKS*
+STRUCTURE = INDIVIDUAL
+.11 .1 .08 .08
+.11 .1 .08 .08
+.21 .1 .08 .08
+.31 .1 .08 .08
+.41 .1 .08 .08
+.51 .1 .08 .08
+.61 .1 .08 .08
+.71 .1 .08 .08
+.81 .1 .08 .08
+.21 .19 .08 .08
+.31 .19 .08 .08
+.41 .19 .08 .08
+.51 .19 .08 .08
+.61 .19 .08 .08
+.71 .19 .08 .08
+.31 .28 .08 .08
+.41 .28 .08 .08
+.51 .28 .08 .08
+.61 .28 .08 .08
+.41 .37 .08 .08
+.51 .37 .08 .08
+*END:BLOCKS*
+
+

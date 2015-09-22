@@ -1,0 +1,51 @@
+//Level 3
+
+//Color goes here in form of red green blue
+TOP_COLOR = 255 0 255
+
+//End color goes here (at bottom)
+BOTTOM_COLOR = 0 255 0
+
+//Background color goes here
+BACKGROUND_COLOR = 255 255 0
+
+//Foreground color goes here (GUI, paddle, and ball color)
+FOREGROUND_COLOR = 0 0 0
+
+//String name of next level (in levels folder)
+NEXT_LEVEL = Level004
+
+//If grid structure is true, then the next line denotes the
+//base health for each brick.
+
+BASE_BLOCK_STRENGTH = 1
+
+//Bricks go here in any order if grid structure is false.
+//Bricks should be in the form of x y width height 
+//health specificColor. Note that x,y,width,and height 
+//should be by percent in decimal form (ex: .5 rather 
+//than 50 for fifty percent).
+
+
+//If grid structure is true, the next line should be 
+//in the form of columns rows brick_height spacing offset. 
+//Note that brick_height should be by percent in decimal 
+//form (ex: .5 rather than 50 for fifty percent). Spacing
+//and offset should be in pixels. (spacing for the width 
+//is automatically calculated. This spec and offset are only
+//for the height. Offset is how much space there is between
+//the first row and the top of the applet. 
+*BLOCKS*
+STRUCTURE = GRID
+10 6 .1 .01 .1
+1 2 2 
+2 2 2 
+3 2 2 
+4 2 2 
+5 2 2 
+6 2 2 
+7 2 2 
+8 2 2 
+9 2 2 
+10 2 2 
+*END:BLOCKS*

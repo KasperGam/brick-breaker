@@ -1,0 +1,27 @@
+BACKGROUND_COLOR = 0 0 0
+FOREGROUND_COLOR = 255 255 255
+TOP_COLOR = 0 0 255
+BOTTOM_COLOR = 255 0 255
+
+NEXT_LEVEL = Level005
+BASE_BLOCK_STRENGTH = 2
+
+*BLOCKS*
+STRUCTURE = GRID
+8 8 .05 .02 .15
+*END:BLOCKS*
+
+//Attributes are cool effects to add to a level to add difficulty or just make the 
+//level more fun.
+*ATTRIBUTES*
+
+//rains down bad perks. The value specifies how many milliseconds must pass between perk spawns.
+PERK_RAIN_BAD = 2000
+
+//same thing for good perks
+PERK_RAIN_GOOD = 15000
+
+//spawns 'evil' balls, which bounce off of the bottom and can cause loss of life if they hit
+//the paddle. The values are spawn interval, first color, second color, color switch time.
+EVIL_BALL_SPAWN = 60000 255 0 0 255 255 255 200
+*END:ATTRIBUTES*
